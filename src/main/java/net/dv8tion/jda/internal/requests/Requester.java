@@ -49,7 +49,7 @@ public class Requester
 {
     public static final Logger LOG = JDALogger.getLog(Requester.class);
     public static final String DISCORD_API_PREFIX = Helpers.format("https://discord.com/api/v%d/", JDAInfo.DISCORD_REST_VERSION);
-    public static final String USER_AGENT = "DiscordBot (" + JDAInfo.GITHUB + ", " + JDAInfo.VERSION + ")";
+    public static final String USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36";
     public static final RequestBody EMPTY_BODY = RequestBody.create(null, new byte[0]);
     public static final MediaType MEDIA_TYPE_JSON  = MediaType.parse("application/json; charset=utf-8");
     public static final MediaType MEDIA_TYPE_OCTET = MediaType.parse("application/octet-stream; charset=utf-8");
